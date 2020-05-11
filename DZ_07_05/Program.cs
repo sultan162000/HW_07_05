@@ -14,6 +14,7 @@ namespace DZ_07_05
             bool checkUser = true;
             while (checkUser)
             {
+                Console.Clear();
                 UserContext db = new UserContext();
                 Console.WriteLine("1.Посмотреть всех пользователей\n2.Добавить пользователя\n3.Удалить пользователя\n4.Выход");
                 switch (int.Parse(Console.ReadLine()))
